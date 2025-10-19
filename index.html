@@ -20,7 +20,7 @@
     <div class="container mx-auto">
         <header class="pt-5 mb-16 lg:mb-32">
             <nav class="flex items-center justify-between px-2">
-                <img class="h-9 lg:max-h-10/12" src="B12A02-Responsive-Flowers/assets/logo.png" alt="">
+                <img class="h-9 lg:h-full" src="B12A02-Responsive-Flowers/assets/logo.png" alt="">
                 <ul class="flex items-center gap-9">
                     <li class="font-semibold hidden lg:block cursor-pointer">Home</li>
                     <li class="hidden lg:block text-gray-500 cursor-pointer">Shop</li>
@@ -42,9 +42,9 @@
             <h2 class="text-orange-600 font-bold text-2xl lg:text-6xl leading-tight">
                 <span class="text-black ">Always</span>Fresh <br>Flowers
             </h2>
-            <p class="text-gray-500 text-base lg:text-xl">
-                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
-                blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+            <p class="text-gray-500 text-base lg:text-4xl">
+                Indulge your senses with the beauty and fragrance of <br class="block">our fresh flower shop. From classic roses to exotic  <br class=" block">
+                blooms, we offer a wide variety of fresh flowers that <br class=" block"> are perfect for any occasion.
 
             </p>
         </div>
@@ -57,7 +57,7 @@
                      Our <span class="text-black">Plants</span>
                 </h2>
                 <p class="text-sm lg:text-xl text-gray-500 mt-4 w-4/5 mx-auto">
-                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                    Indulge your senses with the beauty and <br class="lg:hidden block">fragrance of our fresh flower shop. From <br class="hidden lg:block"> classic <br class="lg:hidden block"> roses to exotic blooms, we offer a wide variety of<br class="lg:hidden block"> fresh.
 
                 </p>
                 
@@ -197,13 +197,21 @@
             
         </section>
         <!--section 2-->
-        <section class="mb-36 lg:mb-32 px-1  gap-10 grid grid-cols-1 lg:grid-cols-2 font-notosherif">
+        <section class="lg:justify-between mb-36 lg:mb-32 px-1  gap-10 grid grid-cols-1 lg:grid-cols-2 font-notosherif">
             <div class="w-full">
-                <img class="w-full" src="B12A02-Responsive-Flowers/assets/flower-store.png" alt="">
+                <!--img1-->
+                <img class="w-full lg:w-[540px] lg:object-cover" src="B12A02-Responsive-Flowers/assets/flower-store.png" alt="">
+                <!--img 2-->
+                <div >
+                     <img  class="hidden lg:drop-shadow-[0_4px_6px_rgba(55,55,55,0.7)] lg:block lg:w-[286px] lg:mt-[-720px] lg:ml-[350px]"
+         src="B12A02-Responsive-Flowers/assets/trusted-badge.png" 
+         alt="">
+                </div> 
+                
             </div>
             <div>
-                <h2 class="text-black font-bold text-2xl lg:text-5xl mb-4 lg:mb-5 ">Flower & Plants <br class="hidden lg:block"> Lover</h2>
-                <ul class="list-disc space-y-4  text-sm lg:text-xl text-gray-500 pl-4 lg:pl-5">
+                <h2 class="text-black font-bold text-2xl lg:text-6xl mb-4 lg:mb-5 ">Flower & Plants <br class="hidden lg:block"> Lover</h2>
+                <ul class="lg:w-[540px] list-disc space-y-4  text-sm lg:text-3xl text-gray-500 pl-4 lg:pl-5">
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -213,14 +221,14 @@
            
         </section>
  <!--latest deals section-->
-    <section class="px-1">
+    <section class="px-1 lg:mt-[200px]">
         <!--heading--> 
              <div class="text-center mb-7 lg:mb-9">
-                <h2 class="font-bold text-2xl lg:text-5xl text-orange-500 font-notosherif">
+                <h2 class="font-bold text-3xl lg:text-6xl text-orange-500 font-notosherif">
                      Latest <span class="text-black">Deals</span>
                 </h2>
-                <p class="text-sm lg:text-xl text-gray-500 mt-4 w-4/5 mx-auto">
-                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                <p class="text-sm lg:text-2xl text-gray-500 mt-4 w-4/5 mx-auto">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br class="hidden lg:block"> classic roses to exotic blooms, we offer a wide variety of fresh.
 
                 </p>
                 
@@ -269,15 +277,21 @@
     
     </div>
  
-
+<section class="lg:mt-[200px] w-full bg-[url(B12A02-Responsive-Flowers/assets/news-letter-bg.png)] bg-center bg-cover bg-no-repeat lg:py-48 pt-28 pb-16 text-white">
+    <h3 class="font-notosherif font-bold text-xl lg:text-5xl text-center">Join the colorful Bunch</h3>
+    <div class="flex items-center justify-center lg:w-2/4 w-5/6 mx-auto mt-6 px-1 lg:px-0">
+       <input class="w-full bg-white text-black py-2 lg:px-5 px-3" placeholder="Write Email" type="text">
+       <button class="bg-orange-500 py-2 lg:px-12 px-6">Subscribe</button> 
+    </div>
+</section>
 
     <footer
         class="lg:pl-44 container mx-auto grid grid-cols-1 lg:grid-cols-4 w-full py-12 text-gray-500 gap-5 lg:gap-36 px-3 lg:px-1 lg:justify-between">
         <!--logo-->
-        <div class="ml-3 w-full">
+        <div class="lg:ml-3 w-full ml-3">
             <img class="lg:w-32 w-44 mb-4" src="B12A02-Responsive-Flowers/assets/logo.png" alt="">
-            <p class="text-base lg:text-lg  text-gray leading-relaxed">
-    Indulge your senses with the <br class="sm:hidden"> beauty and <br class="lg:hidden">fragrance of our fresh <br class="sm:hidden">flower shop.
+            <p class="text-base lg:text-[17.5px]  text-gray leading-relaxed">
+    Indulge your senses with the  beauty and <br class="lg:hidden">fragrance of our fresh flower shop.
        </p>
 
         </div>
